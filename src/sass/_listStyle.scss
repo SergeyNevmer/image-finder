@@ -1,0 +1,15 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0px;
+
+  li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+
+  li:not(:nth-child(4n)) {
+    margin-right: 5px;
+  }
+}

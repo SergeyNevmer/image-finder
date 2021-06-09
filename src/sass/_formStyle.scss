@@ -1,0 +1,19 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+
+  input {
+    width: 400px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  button {
+    padding: 13px 10px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+}
